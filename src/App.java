@@ -1,9 +1,11 @@
-import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
-        Scanner scanner = new Scanner(System.in);
-    
+
+        CriaParametro criaParametro = new CriaParametro();
+        double numero = 0;
+        numero = criaParametro.CriandoParametroDouble("Digite um número: ");
+        System.out.println("O numero foi " + numero);
+        
     }
 }
