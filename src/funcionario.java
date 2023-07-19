@@ -2,14 +2,13 @@ public class funcionario  {
     
     private String nome;
     private double salario;
-    private double comicao = 0.0 ;
     ImformacoesGerais imformacoesGerais = new ImformacoesGerais() ;
 
     public void criaFuncionario(){
 
         CriaParametro criaParametro = new CriaParametro();
         String nome = criaParametro.CriandoParametroString("Nome: ");
-        double salario = criaParametro.CriandoParametroDouble("Salario: ");
+        double salario = criaParametro.CriandoParametroDouble("Salario:R$ ");
         int idade = criaParametro.CriandoParametroInt("Idade: ");
         String cpf = criaParametro.CriandoParametroString("cpf: ");
         String sexo = criaParametro.CriandoParametroString("Sexo: ");
@@ -35,7 +34,4 @@ public class funcionario  {
         System.out.println();
     }
 
-    public double GanhoComicao(){
-        return this.comicao = this.salario + (this.salario * 10) /100 ;
-    }
 }

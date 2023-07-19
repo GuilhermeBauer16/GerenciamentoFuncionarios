@@ -53,7 +53,21 @@ public class ImformacoesGerais {
         
     }   
 
-
+    public static String ObterCpfUsuario(){
+        CriaParametro criaParametro = new CriaParametro();
+        String cpf;
+        while (true){
+        cpf = criaParametro.CriandoParametroString("digite seu CPF: ");
+        cpf = cpf.replaceAll("[^0-9]" , "");
+        
+        if (cpf.length() == 11){
+            break;
+        }else {
+            System.out.println("O CPF deve conter 11 numeros!");
+        }
+    }
+        return cpf ;
+    }
         
     
 }
