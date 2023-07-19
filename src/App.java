@@ -1,18 +1,25 @@
+import javax.rmi.ssl.SslRMIClientSocketFactory;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        
-        CriaParametro criaParametro = new CriaParametro();
-        String nome = criaParametro.CriandoParametroString("Nome: ");
-        double salario = criaParametro.CriandoParametroDouble("Salario: ");
-        int idade = criaParametro.CriandoParametroInt("Idade: ");
-        String cpf = criaParametro.CriandoParametroString("cpf: ");
-        String sexo = criaParametro.CriandoParametroString("Sexo: ");
-        String endereco = criaParametro.CriandoParametroString("Endereço: ");
-        System.out.println("O nome digitado foi  " + nome);
-        System.out.println("O salario digitado foi " + salario);
-        funcionario funcionario = new funcionario(nome , salario , idade , cpf , sexo , endereco);
-        System.out.println(funcionario.imformacoesGerais);
-        funcionario.mostraFuncionario();
+        // Conexao conexao = new Conexao();
+        while (true){
+            System.out.println(titulo("Gerenciamento de funcionarios", 40));
+            CriaParametro criaParametro = new CriaParametro();
+            String nome = criaParametro.CriandoParametroString("Nome: ");
+            double salario = criaParametro.CriandoParametroDouble("Salario: ");
+            int idade = criaParametro.CriandoParametroInt("Idade: ");
+            String cpf = criaParametro.CriandoParametroString("cpf: ");
+            String sexo = criaParametro.CriandoParametroString("Sexo: ");
+            String endereco = criaParametro.CriandoParametroString("Endereço: ");
+            funcionario funcionario = new funcionario(nome , salario , idade , cpf , sexo , endereco);
+            funcionario.mostraFuncionario();
+            System.out.println("seu salário com a comição ficou:R$ " + funcionario.GanhoComicao());
+    }
+    }
+
+    public static String titulo(String mensagem , int numero){
+        String linha = "--".repeat(numero);
+        return linha + "\n "+ mensagem + "\n" + linha;
     }
 }
