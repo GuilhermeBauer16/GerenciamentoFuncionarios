@@ -16,11 +16,19 @@ Foi um projeto com bastante aprendizado em Java. Aprendi como utilizar melhor as
 ## Funcionalidades 
 
 * O usuário poderá adicionar os funcionários e os gerentes, divididos entre:
+  
   * Nome: O usuário poderá adicionar o nome.
+    
   * Salário: O usuário poderá adicionar o salário.
+    
   * idade: O usuário poderá adicionar a idade.
+    
   * sexo: O usuário poderá adicionar o sexo.
+    
   * endereço: O usuário poderá adicionar o endereço.
+    
   * CPF: O usuário poderá adicionar o  o CPF.
+    
 * Para a adição de um gerente, será necessário saber a senha do sistema.
+  
 * O usuário poderá visualizar os funcionários e gerentes adicionados, mas para a visualização dos gerentes será necessária a senha do sistema.
