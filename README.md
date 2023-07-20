@@ -7,9 +7,15 @@ onde o usuário poderá armazenar seus funcionários ou gerentes com nome,
 salário (R$), idade, CPF, endereço e sexo. Para adicionar um gerente, 
 será necessário a senha do sistema.
 
+
+
+
+
 ## Exemplo de funcionamento
 
 ![image](https://github.com/GuilhermeBauer16/GerenciamentoFuncionarios/assets/123701893/678b133b-759a-4b6e-9220-cef364b55d25)
+
+https://github.com/GuilhermeBauer16/GerenciamentoFuncionarios/assets/123701893/8c9321d8-d336-4f6e-94f9-d536a80581f9
 
 ## Aprendizado
 
