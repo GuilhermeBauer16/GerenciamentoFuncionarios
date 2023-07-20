@@ -9,6 +9,8 @@ será necessário a senha do sistema.
 
 ## Exemplo de funcionamento
 
+![image](https://github.com/GuilhermeBauer16/GerenciamentoFuncionarios/assets/123701893/678b133b-759a-4b6e-9220-cef364b55d25)
+
 ## Aprendizado
 
 Foi um projeto com bastante aprendizado em Java. Aprendi como utilizar melhor as heranças e o polimorfismo, como fazer melhor uso das classes e atributos para conseguir usufruir melhor da reutilização de código, como utilizar o Try e Catch e como lidar com as exceções.
